@@ -5,7 +5,7 @@ import TextForm from './components/TextForm';
 import React, {useState} from 'react'
 import Alert from './components/Alert';
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
-//func
+
 function App() {
 
   const [mode, setScreenMode] = useState("light")
